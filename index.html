@@ -5,16 +5,12 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	</head>
 	<body bgcolor="#8640777">
-		<div id="#text">
-			<div align="middle">I Want a unicorn</div>
-		</div>
 		<center>
+		<div><button type="button" onclick="getUnicorn()">Give me a unicorn.</button></div>
 		<img id="#img" style="max-width: 100%; max-height: 100%; width: auto;" align="middle" />
 		</center>
 	</body>
 		<script>
-			window.setInterval(getUnicorn, 5000);
-
 			function getUnicorn()
 			{
 				var pictureId = Math.floor((Math.random() * 31) + 1);
