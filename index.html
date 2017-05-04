@@ -12,7 +12,7 @@
 		<script>
 			function getUnicorn()
 			{
-				var pictureId = Math.floor((Math.random() * 31) + 1);
+				var pictureId = Math.floor((Math.random() * 32) + 1);
 				var x = document.getElementById("#img");
 				x.setAttribute("src", './images/' + pictureId + '.jpg?timestamp=' + new Date().getTime());
 				document.getElementById("#text").style.visibility = 'hidden';
